@@ -265,7 +265,6 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>chip=2531</state>
           <state>VP_CONFIG_H="contiki-conf.h"</state>
           <state>VP_NASSERT</state>
         </option>
@@ -462,14 +461,6 @@
           <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\</state>
           <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart\</state>
           <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart2\</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\common</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\common\cc8051</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\targets\cc2531_dongle</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\targets\interface</state>
-          <state>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils</state>
           <state>$PROJ_DIR$\contiki-2.x\platform\</state>
           <state>$PROJ_DIR$\contiki-2.x\platform\dugs\</state>
           <state>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\</state>
@@ -531,6 +522,10 @@
         <version>4</version>
         <wantNonLocal>1</wantNonLocal>
         <debug>0</debug>
+        <option>
+          <name>ADefines</name>
+          <state></state>
+        </option>
         <option>
           <name>OAProcessorVariant</name>
           <state>1</state>
@@ -635,10 +630,6 @@
         <option>
           <name>AIncludes</name>
           <state>$TOOLKIT_DIR$\INC\</state>
-        </option>
-        <option>
-          <name>ADefines</name>
-          <state>chip=2531</state>
         </option>
         <option>
           <name>AWarnEnable</name>
@@ -1066,15 +1057,15 @@
         <debug>1</debug>
         <option>
           <name>DerivativeDescriptionFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2531F256.i51</state>
+          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2530F256.i51</state>
         </option>
         <option>
           <name>Previous Derivative File</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2531F256.i51</state>
+          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\CC2530F256.i51</state>
         </option>
         <option>
           <name>Showed Derivative</name>
-          <state>CC2531F256</state>
+          <state>CC2530F256</state>
         </option>
         <option>
           <name>CPU Core</name>
@@ -1314,9 +1305,7 @@
         </option>
         <option>
           <name>CCDefines</name>
-          <state>chip=2531</state>
           <state>VP_CONFIG_H="contiki-conf.h"</state>
-          <state>VP_STDINT_H="vpi/stdint_fast.h"</state>
           <state>VP_NASSERT</state>
         </option>
         <option>
@@ -1571,6 +1560,10 @@
         <wantNonLocal>1</wantNonLocal>
         <debug>1</debug>
         <option>
+          <name>ADefines</name>
+          <state></state>
+        </option>
+        <option>
           <name>OAProcessorVariant</name>
           <state>1</state>
         </option>
@@ -1674,10 +1667,6 @@
         <option>
           <name>AIncludes</name>
           <state>$TOOLKIT_DIR$\INC\</state>
-        </option>
-        <option>
-          <name>ADefines</name>
-          <state>chip=2531</state>
         </option>
         <option>
           <name>AWarnEnable</name>
@@ -1817,7 +1806,7 @@
         </option>
         <option>
           <name>XclFile</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2531F256_banked.xcl</state>
+          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</state>
         </option>
         <option>
           <name>XclFileSlave</name>

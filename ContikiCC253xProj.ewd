@@ -750,7 +750,7 @@
         </option>
         <option>
           <name>DdfFile master</name>
-          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\ioCC2531F256.ddf</state>
+          <state>$TOOLKIT_DIR$\config\devices\Texas Instruments\ioCC2530F256.ddf</state>
         </option>
       </data>
     </settings>
