@@ -1,0 +1,4926 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2849999105</fileChecksum>
+  <configuration>
+    <name>ContikiBankedDebug</name>
+    <outputs>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rucb.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\ctimer.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Product.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\polite.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\netstack.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slip-arch.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\unicast.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\list.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\me.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\me_tabs.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\petsciiconv.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\print-stats.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\ringbuf.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\sensors.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\strncasecmp.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\leds.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\nullradio.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\serial-line.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\slip.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\assert.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\checkpoint.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\crc16.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\gcr.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\ifft.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\broadcast-announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\libconio.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\contikimac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\csma.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\cxmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\frame802154.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-802154.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-nullmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\lpp.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\mac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc-noframer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\phase.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\sicslowmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\xmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\abc.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\broadcast.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon-bitopt.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-link-estimate.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon-raw.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\channel.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-neighbor.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\neighbor-discovery.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\ipolite.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\mesh.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\multihop.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\netflood.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\polite.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\polite-announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rime-udp.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rime.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rimeaddr.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rimestats.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rmh.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\route-discovery.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\route.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rucb.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph0.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph1.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph2.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\runicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\stbroadcast.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\stunicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\timesynch.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\trickle.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\unicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\dhcpc.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\hc.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\neighbor-attr.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\neighbor-info.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\netstack.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\packetqueue.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\psock.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\queuebuf.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rawpacket-udp.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\resolv.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\slipdev.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\tcpdump.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\tcpip.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uaodv-rt.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uaodv.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\mt.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\process.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\cc2530-rf.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\clock.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\dma.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\dma_intr.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\random.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart-intr.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart0.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart1.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\watchdog.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\soc.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\examples\rime\example-mesh.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\adc-sensor.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\contiki-main.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\debug.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\button-sensor.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\leds-arch.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\slip-arch.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\smartrf-sensors.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\putchar.c</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\viztool.c</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\csma.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\process.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rawpacket-udp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\unicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\abc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\strncasecmp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rimeaddr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\tcpip.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Exe\ContikiCC253xProj.d51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\abc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\broadcast-announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rime.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\contikimac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rime-udp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\resolv.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\phase.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\packetqueue.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\packetqueue.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\netstack.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ipolite.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\lpp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph2.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\sicslowmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\compower.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\framer-nullmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\tcpdump.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\timer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\polite-announcement.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullradio.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\broadcast-announcement.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon-raw.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\random.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\etimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\broadcast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\route-discovery.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slipdev.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon-raw.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\compower.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\resolv.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\psock.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\netflood.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\autostart.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\unicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\framer-nullmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\compower.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\list.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rawpacket-udp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rtimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\procinit.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\polite.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stbroadcast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\trickle.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rimeaddr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ctimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect-neighbor.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\framer-802154.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\channel.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rmh.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\queuebuf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\multihop.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\route.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\queuebuf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\tcpip.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\strncasecmp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mmem.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullrdc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\route.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mesh.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect-neighbor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rime.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rimestats.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\cxmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\xmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rime-udp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\framer-802154.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\phase.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon-bitopt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stunicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\cxmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ipolite.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph1.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\frame802154.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\process.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph0.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\contikimac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ContikiCC253xProj.pbd</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullradio.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\timesynch.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\chameleon-bitopt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-discovery.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect-link-estimate.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rtimer-arch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mesh.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\memb.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\packetbuf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rimestats.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stunicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\arg.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph2.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\polite-announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph1.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\print-stats.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\broadcast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\collect-link-estimate.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\trickle.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\stunicast.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rucb.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\route-discovery.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\lpp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\announcement.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\polite.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\tcpdump.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\csma.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\channel.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slipdev.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uip-fw.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slip.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\leds.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slip.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uaodv-rt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\leds.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\serial-line.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\serial-line.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\list.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\me_tabs.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullrdc-noframer.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\libconio.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullrdc-noframer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\sensors.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\me_tabs.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\assert.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\checkpoint.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ifft.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\gcr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ringbuf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\petsciiconv.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\print-stats.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\libconio.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\me_tabs.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\sensors.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\me.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uip.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dhcpc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uaodv.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-attr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-info.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\hc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\hc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uaodv-rt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dhcpc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-attr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-info.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart0.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\watchdog.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart1.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart-intr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\watchdog.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart0.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\contiki-main.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\soc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\example-mesh.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\soc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dma_intr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart1.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dma_intr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uart-intr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\contiki-main.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\debug.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\putchar.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\putchar.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\debug.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\cc253x.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\8051def.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\mmem.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\example-mesh.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\assert.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\me.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\checkpoint.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\crc16.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\petsciiconv.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\libconio.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ifft.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\gcr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\ringbuf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\uaodv.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\netflood.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\print-stats.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\timesynch.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\neighbor-discovery.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-link-estimate.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\leds.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\contiki.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\channel.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\broadcast.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\ringbuf.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rimestats.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\route.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\multihop.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rimeaddr.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\mesh.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\packetbuf.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\etimer.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\random.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\queuebuf.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\yvals.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\announcement.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\ifft.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\rtimer.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\lpp.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\csma.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\trickle.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\cxmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-802154.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\cpu\cc253x\rtimer-arch.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\clock.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\slip.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\route-discovery.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\mac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\cc2530-rf.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\memb.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\packetqueue.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\ipolite.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stdio.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\abc.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\runicast.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\serial-line.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-nullmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\watchdog.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\rdc.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\framer.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\checkpoint.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\lib\sensors.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\nullradio.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\frame802154.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-neighbor.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dma.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\polite-announcement.h</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2531.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\ysizet.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rmh.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\stbroadcast.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\netstack.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\rime\rucb.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\contikimac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc-noframer.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\phase.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\dma.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\cc2530-rf.r51</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\timesynch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\adc-sensor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\runicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\runicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\energest.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rudolph0.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\mac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\button-sensor.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\contiki-net.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\leds-arch.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\xmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\mac\sicslowmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stddef.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\adc-sensor.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uip-fw-drv.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\limits.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uip-udp-packet.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\resolv.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\psock.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\leds-arch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\button-sensor.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uiplib.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\contiki-lib.h</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\net\uip_arp.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\slip-arch.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\core\dev\radio-sensor.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\smartrf-sensors.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\smartrf-sensors.r51</file>
+      <file>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\contiki-conf.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\nullrdc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\sicslowmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\multihop.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\neighbor-discovery.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\frame802154.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\stdint.h</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\netflood.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\xmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedDebug\Obj\rmh.r51</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 135</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 185</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 463</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 276</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\me.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 330</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 294</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\me_tabs.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 282</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 239</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345 366 426 2 352 346 413 348 395 455 326 461 384 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 386</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327 276 455 326 461 366 426 2 352 346 384 345 413</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\petsciiconv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 333</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\print-stats.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 249</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 340 363 367 357 455 326 461 366 426 2 352 346 384 345 413 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374 404 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\ringbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 337</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 351 455 326 461 366 426 2 352 346 384 345 413</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\sensors.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 281</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345 366 426 2 352 346 413 348 395 455 326 461 384 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 405</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\strncasecmp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 131</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\dev\leds.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 273</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 270</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347 380 455 326 461 366 426 2 352 346 384 345 413 404 369 379 325 412 254</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\dev\nullradio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 231</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 160</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 373</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\dev\serial-line.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 274</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 394 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 351</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\dev\slip.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 271</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 269</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389 366 426 2 352 346 413 345 348 395 455 326 461 384 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 295 400 398 268 381</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\assert.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 329</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 283</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389 366 426 2 352 346 413</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\checkpoint.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 331</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 284</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 403 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 332</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 285</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\gcr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 336</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 287</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\ifft.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 335</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368 455 326 461 366 426 2 352 346 384 345 413</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\broadcast-announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 364 389 439</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\lib\libconio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 334</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345 366 426 2 352 346 413 348 395 455 326 461 384 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 279</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\contikimac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 229</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 139</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 416 455 326 461 366 426 2 352 346 384 345 413 383 373 401 402 347 397 364 420 369 379 325 412 254 363 367 357 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 374 183 389 423</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 265</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 372 383 455 326 461 366 426 2 352 346 384 345 413 373 361 357 365 1 362 355 380 126 392 399 375 364 416 401 402 276 386 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\cxmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 214</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347 373 397 416 455 326 461 366 426 2 352 346 384 345 413 383 401 402 364 377 369 379 325 412 254 363 367 357 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 374 183 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\frame802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 460</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 384 455 326 461 366 426 2 352 346 345 413 408 357</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 217</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 378 402 408 455 326 461 366 426 2 352 346 384 345 413 357 361 364</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\framer-nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 154</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 181</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396 402 361 455 326 461 366 426 2 352 346 384 345 413 357</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\lpp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 260</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347 276 386 384 455 326 461 366 426 2 352 346 345 413 364 363 367 357 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 387 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374 416 401 402 371 183 344 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 433</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 250</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383 455 326 461 366 426 2 352 346 384 345 413 373</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 421 383 455 326 461 366 426 2 352 346 384 345 413 373 361 357 416 401 402</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc-noframer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 280</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 278</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 422 401 455 326 461 366 426 2 352 346 384 345 413 383 373 361 357 416 402</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\nullrdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 208</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 456</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360 401 455 326 461 366 426 2 352 346 384 345 413 383 373 361 357 416 402 369 379 325 412 254 397</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\phase.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 218</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 142</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423 357 455 326 461 366 426 2 352 346 384 345 413 355 380 369 379 325 412 254 276 386 416 383 373 401 402 361 1 362 126 392 399 375 365 397 347</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\sicslowmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 457</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 152</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345 366 426 2 352 346 413 438 401 455 326 461 384 383 373 408 357 361 416 402 364</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\mac\xmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 464</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 215</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 347 373 397 364 416 455 326 461 366 426 2 352 346 384 345 413 383 401 402 437 369 379 325 412 254 363 367 357 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 374 183 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\abc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 435 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 398 295 400 268 441 450 448 443 444 445 449 276 386 327 364 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 387 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 416 401 402</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 205</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 367 357 455 326 461 366 426 2 352 346 384 345 413 276</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\broadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 251</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 167</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 435 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 398 295 400 268 441 450 448 443 444 445 449 276 386 327 364 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 387 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 416 401 402</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon-bitopt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 219</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 390 349 455 326 461 366 426 2 352 346 384 345 413 361 357 363 367 358 393 256 1 362 355 380 126 392 399 375 6 350 391 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-link-estimate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 235</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 253</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 358 367 357 455 326 461 366 426 2 352 346 384 345 413 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon-raw.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 171</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 162</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345 366 426 2 352 346 413 390 349 455 326 461 384 361 357 363 367 358 393 256 1 362 355 380 126 392 399 375 6 350 391 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\chameleon.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 130</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 390 349 455 326 461 366 426 2 352 346 384 345 413 361 357 363 367 358 393 256 1 362 355 380 126 392 399 375 6 350 391 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374 389</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\channel.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 266</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 390 349 455 326 461 366 426 2 352 346 384 345 413 361 357 363 367 358 393 256 1 362 355 380 126 392 399 375 6 350 391 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\collect-neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 211</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 194</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 442 366 426 2 352 346 389 413 348 395 455 326 461 384 345 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 386 276 409 357 343 358 367 393 256 6 350 391 361 349 390 365 342 387</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\collect.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 166</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 150</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 452 405 364 389 439</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\neighbor-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 459</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 234</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 452 405 364 389 439</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\ipolite.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 222</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 363 367 357 455 326 461 366 426 2 352 346 384 345 413 358 393 256 1 362 355 380 126 392 399 375 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 369 379 325 412 254 374 364</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\mesh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 238</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 210</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374 439</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\multihop.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 199</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 458</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348 395 455 326 461 366 426 2 352 346 384 345 413 126 392 399 375 376 355 380 1 362 369 379 325 412 254 417 407 404 363 367 357 358 393 256 6 350 391 361 349 390 365 342 409 343 276 387 386 388 359 356 382 339 411 3 353 414 354 418 341 383 373 374</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\netflood.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 462</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339 365 361 455 326 461 366 426 2 352 346 384 345 413 357 388 1 362 355 380 126 392 399 375 350 391 349 390</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\polite.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 262</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\polite-announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 247</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rime-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 216</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 140</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rime.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 212</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 138</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rimeaddr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rimestats.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 242</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 213</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rmh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 465</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 197</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\route-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 168</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\route.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rucb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph0.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 225</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 248</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\rudolph2.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 246</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\runicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 430</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 429</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\stbroadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 190</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\stunicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 220</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 244</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\timesynch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 427</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 232</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\trickle.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 255</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rime\unicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 180</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\dhcpc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\hc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 300</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 301</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\neighbor-attr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 298</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\neighbor-info.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\netstack.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 4</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 146</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 241</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 237</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 143</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\psock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 175</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 176</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\queuebuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 202</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\rawpacket-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\resolv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 174</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\slipdev.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 267</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 169</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\tcpdump.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 264</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\tcpip.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 133</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\uaodv-rt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 302</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 272</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\net\uaodv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 338</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 245</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 240</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 178</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 193</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 224</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 170</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 165</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\mt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 155</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 188</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 223</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 263</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 252</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 158</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\cc2530-rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 425</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 385</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 370</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 419</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 424</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\dma_intr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 318</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 316</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 164</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart-intr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 319</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 309</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart0.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 306</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 311</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\uart1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\dev\watchdog.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 236</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 182</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\cpu\cc253x\soc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 313</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\examples\rime\example-mesh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 328</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\adc-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 428</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\contiki-main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 312</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 320</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 321</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 324</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\button-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 447</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\leds-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 446</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 436</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\slip-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 451</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\dev\smartrf-sensors.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 454</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.5\platform\cc2530dk\putchar.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 322</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>ContikiBankedRelease</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\limits.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stddef.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\radio-sensor.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\assert.h</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_max3100.r51</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\ctype.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\sensors.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-link-estimate.c</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\adc.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\list.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\leds.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\watchdog.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\nullradio.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\nullradio.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\dev\radio.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast-announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\list.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon-bitopt.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon-raw.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\memb.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\memb.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\mktime.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\mmem.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\mmem.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\rand.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\rand.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\random.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\random.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\strncasecmp.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\contikimac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\contikimac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\csma.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\csma.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\cxmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\cxmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\frame802154.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\frame802154.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-802154.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-802154.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-nullmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-nullmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\framer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\lpp.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\lpp.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\mac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\mac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc-framer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc-framer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\phase.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\phase.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\rdc.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\sicslowmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\sicslowmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\xmac.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\mac\xmac.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\abc.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\abc.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\announcement.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast-announcement.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\neighbor-discovery.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\ipolite.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\channel.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\channel.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-neighbor.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-neighbor.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-link-estimate.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\ipolite.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\polite.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\polite-announcement.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\polite.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rime-udp.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\mesh.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\mesh.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\multihop.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\multihop.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\netflood.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\netflood.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\neighbor-discovery.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gpio\gpio_mcp23x17.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gpsLowLevel_uart.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rime-udp.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\polite-announcement.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\os\os_contiki.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rime.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rmh.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gps_siRf.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rmh.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\route-discovery.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\route-discovery.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\route.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\route.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rucb.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rucb.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph0.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph0.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph1.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph1.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph2.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph2.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\runicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\runicast.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\stbroadcast.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\stbroadcast.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\stunicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\stunicast.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\timesynch.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\timesynch.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\trickle.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\trickle.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\unicast.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\unicast.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rimeaddr.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rimeaddr.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rimestats.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime\rimestats.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-fw-drv.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-fw.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip_arp.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\netstack.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\netstack.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\packetbuf.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\packetbuf.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\packetqueue.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\packetqueue.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\psock.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\psock.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\queuebuf.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\queuebuf.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rawpacket-udp.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\resolv.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\resolv.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\rime.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\slipdev.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\tcpdump.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\tcpip.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\tcpip.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-debug.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-split.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-udp-packet.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip-udp-packet.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uip.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uiplib.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uiplib.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\net\uipopt.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\timetable-aggregate.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\arg.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\autostart.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\autostart.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\cc.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\clock.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\compower.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\compower.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\ctimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\ctimer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\energest.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\energest.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\etimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\etimer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\lc-switch.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\lc.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\loader.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\log.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\mt.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\process.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\process.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\procinit.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\procinit.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\profile.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\pt.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\rtimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\rtimer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\stimer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\timer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\timer.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\sys\timetable.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\contiki-lib.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\contiki-net.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\contiki-version.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\contiki.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\common\hal_int.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\targets\common\hal_uart_usb.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_cdc_descriptor.s51</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_cdc_hooks.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_firmware_library_config.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_uart.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\hal_enter_pm.s51</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\usb_interrupt.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\usb_suspend.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_descriptor_parser.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_framework.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_standard_requests.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util_buffer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util_uart.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\adc.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\aes.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\banked.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\bus.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\cc2530_rf.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\cc2530_rf_intr.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\clock.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\dma.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\pwm.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\spi.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart_init.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart_intr.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\watchdog-cc253x.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\xmem.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\8051def.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\cc2530_sfr.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\hal_mcu.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\io.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\io.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\mtarch.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\rtimer-arch.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\rtimer-arch.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugsComm.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugsPkts.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\app\ldrComm.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\bcd\bcd.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\flash\flash_at45DBxxxx.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gps_nmeaLib.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\rtc\rtc_ds1390.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\spi\spi_cc253x_master.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\buzzer.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\battery-sensor.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\temperature\temperature_tc72.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\targets\interface\hal_uart.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\uart\uart_max3100.c</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\time.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\cfs\cfs.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\contiki-conf.h</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\contiki-dugs-main.c</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gps_nmeaLib.r51</file>
+      <file>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\common\hal_types.h</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\temperature_tc72.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gpsLowLevel_uart.r51</file>
+      <file>$PROJ_DIR$\contiki-2.x\core\lib\mktime.h</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gps_siRf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\contiki-dugs-main.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_max3100.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\io_aseRev2.h</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\temperature_tc72.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gpsLowLevel_uart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gps_nmeaLib.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\serialProcess.c</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_enter_pm.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_cdc_hooks.r51</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\radiation-sensor.c</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_mcu.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\csma.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\polite.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon-bitopt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mmem.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\tcpdump.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rucb.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\random.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\route-discovery.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gps_siRf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mtarch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\aes.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_int.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\profile.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\buzzer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\io.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugsComm.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util_buffer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_interrupt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugsPkts.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_cdc_descriptor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtc_ds1390.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect-link-estimate.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\multihop.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\sicslowmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\netflood.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\broadcast-announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\polite-announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\strncasecmp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\memb.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\netstack.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_uart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uiplib.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\tcpip.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-udp-packet.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ctimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\resolv.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_suspend.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\bus.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util_buffer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugsComm.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_intr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\io.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_suspend.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_int.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_uart.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_cdc_hooks.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugs_app.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mesh.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_init.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ldrComm.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\aes.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-split.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\compower.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_interrupt.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cc2530_rf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stunicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\energest.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\timesynch.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\procinit.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\packetqueue.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rimestats.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\arg.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rime-udp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\autostart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\strncasecmp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\lpp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\slipdev.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\contikimac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\packetbuf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_mcu.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_framework.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\psock.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rawpacket-udp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\queuebuf.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rimeaddr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullrdc-framer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\unicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mesh.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_framework.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph1.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\phase.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mktime.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullradio.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ipolite.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\framer-nullmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_standard_requests.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\multihop.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon-raw.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\lpp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect-neighbor.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\etimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rmh.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\channel.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect-neighbor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\csma.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_init.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\random.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon-raw.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\list.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\radiation-sensor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\memb.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_standard_requests.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\channel.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cxmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtc_ds1390.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\battery-sensor.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\watchdog-cc253x.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\broadcast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\radiation-sensor.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\route-discovery.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rand.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mktime.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rimestats.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\xmac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\announcement.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\flash_at45DBxxxx.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\xmem.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\frame802154.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\neighbor-discovery.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\os_contiki.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rmh.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\frame802154.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\framer-802154.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\contikimac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullradio.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\broadcast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon-bitopt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtimer-arch.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugs_app.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\bcd.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart_intr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mac.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\spi_cc253x_master.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\buzzer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph2.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\route.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rime.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\abc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rand.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\collect-link-estimate.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\watchdog-cc253x.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_descriptor_parser.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stbroadcast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\process.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_firmware_library_config.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_uart_usb.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cc2530_rf_intr.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util_uart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ldrComm.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\route.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_firmware_library_config.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dugsPkts.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\chameleon.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util_uart.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\xmem.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rime.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullrdc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cxmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\hal_uart_usb.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\util.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\serialProcess.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gpio_mcp23x17.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\etimer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\serialProcess.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph1.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph2.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph0.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\trickle.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\polite-announcement.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugs_app.c</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rudolph0.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\runicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stbroadcast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stunicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\timesynch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\trickle.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\unicast.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rimeaddr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mmem.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\netstack.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\packetbuf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\packetqueue.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\psock.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\queuebuf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rawpacket-udp.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\resolv.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\slipdev.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\tcpdump.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\tcpip.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-debug.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-split.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-udp-packet.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uiplib.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\arg.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\autostart.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\compower.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ctimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\energest.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtimer-arch.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\process.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mt.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\procinit.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\profile.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rtimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\stimer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\timer.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\adc.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\bus.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cc2530_rf.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\cc2530_rf_intr.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\clock.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dma.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\pwm.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\spi.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\spi_cc253x_master.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\contiki-dugs-main.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\framer-nullmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\framer-802154.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\flash_at45DBxxxx.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\bcd.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rime-udp.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\netflood.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\os_contiki.r51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\battery-sensor.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\rucb.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\runicast.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\polite.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\ipolite.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\neighbor-discovery.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\pwm.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\gpio_mcp23x17.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\dma.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Exe\ContikiCC253xProj.d51</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\uip-debug.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullrdc-framer.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\usb_descriptor_parser.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\mtarch.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\nullrdc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\phase.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\sicslowmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\xmac.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\abc.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\announcement.pbi</file>
+      <file>$PROJ_DIR$\ContikiBankedRelease\Obj\broadcast-announcement.pbi</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 516</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-link-estimate.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 419</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 291</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 69 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\dev\nullradio.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 404</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 360</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast-announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 296</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 528</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 34 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\list.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 377</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 363</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 433</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 380</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 79 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 138 129 148 69 74 117 121 170 174 190 166 181 185 176 175 127 71 67 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon-bitopt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 406</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 271</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 79 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 138 129 148 69 74 117 121 170 174 190 166 181 185 176 175 127 71 67 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\chameleon-raw.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 376</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 366</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 10 73 79 250 226 165 11 8 4 178 230 227 0 260 245 213 246 253 138 129 148 69 74 117 121 170 174 190 166 181 185 176 175 127 71 67 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\memb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 299</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 379</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 10 195 194 250 226 165 11 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\mktime.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 359</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 391</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 10 248 256</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\mmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 272</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 461</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30 15 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\rand.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 418</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 390</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 10 195 194 250 226 165 11 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 6 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\random.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 275</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 375</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\lib\strncasecmp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 340</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 298</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\contikimac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 403</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 343</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 20 61 48 16 17 34 37 187 233 148 69 129 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 125 168 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 269</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 373</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 52 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 20 138 129 144 131 170 174 190 166 181 185 176 175 34 136 61 48 15 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\cxmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 383</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 438</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 20 17 136 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 61 48 34 41 187 233 148 69 129 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 125 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\frame802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 401</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 165 250 226 11 10 9 8 4 178 230 227 0 260 245 213 246 253 43 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-802154.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 402</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 500</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 48 43 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 129 138 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\framer-nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 362</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 499</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 48 138 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\lpp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 367</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 341</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 15 27 165 250 226 11 10 9 8 4 178 230 227 0 260 245 213 246 253 34 148 69 129 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 140 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 136 61 48 50 168 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 411</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 514</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\nullmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 346</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 520</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 52 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 20 138 129 136 61 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc-framer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 353</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 518</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 61 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 20 138 129 136 48 187 233 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\nullrdc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 437</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 522</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 61 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 20 138 129 136 48 131 187 233 17</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\phase.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 358</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 523</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 60 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 190 166 187 233 15 27 136 52 20 61 48 138 170 174 181 185 176 175 144 17 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\sicslowmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 294</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 524</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 10 63 61 250 226 165 11 8 4 178 230 227 0 260 245 213 246 253 52 20 43 129 138 136 48 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\mac\xmac.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 393</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 525</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16 20 17 34 136 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 61 48 65 187 233 148 69 129 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 125 168</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\abc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 417</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 526</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 152 157 160 133 132 134 159 156 147 142 192 15 27 30 34 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 140 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 136 61 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 394</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 527</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 15</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\broadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 405</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 387</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 193 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 152 157 160 133 132 134 159 156 147 142 192 15 27 30 34 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 140 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 136 61 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\neighbor-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 398</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 511</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 3 12 34 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\collect.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 347</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 292</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 3 12 34 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\ipolite.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 510</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 69 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\channel.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 371</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 382</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 79 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 138 129 148 69 74 117 121 170 174 190 166 181 185 176 175 127 71 67 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\collect-neighbor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 372</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 368</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1 10 8 4 195 194 250 226 165 11 9 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 27 15 81 129 82 74 69 117 121 127 71 67 138 79 73 144 94 140</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\polite-announcement.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 297</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 450</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 15 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\polite.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 270</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 509</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 69 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\mesh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 321</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 355</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\multihop.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 365</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 293</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\netflood.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 295</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 504</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 144 138 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 129 83 170 174 190 166 181 185 176 175 71 67 79 73</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gpio\gpio_mcp23x17.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 442</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 513</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gpsLowLevel_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 255</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 262</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rime-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 338</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 503</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 10 157 160 250 226 165 11 8 4 178 230 227 0 260 245 213 246 253 152 195 194 181 185 176 175 164 190 166 170 174 187 233 183 177 172 156 87 52 20 138 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\os\os_contiki.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 505</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 399</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rime.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 436</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 416</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 136 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 52 20 61 48 148 69 129 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 187 233 125 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rmh.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 370</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gps_siRf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 257</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 277</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\route-discovery.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 276</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 389</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\route.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 430</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 415</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 4 10 15 27 165 250 226 11 9 178 230 227 0 260 245 213 246 253 170 174 190 166 181 185 176 175 107 129</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rucb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 274</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 507</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109 117 121 170 174 190 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 127 71 67 138 129 79 73 144 148 69 74 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 123 52 20 187 233 125 191 161</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph0.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 448</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 453</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2 10 148 69 129 250 226 165 11 9 8 4 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 111 119</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph1.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 446</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 357</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 4 10 2 148 69 129 250 226 165 11 9 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 113 249 195 194 164 183 177 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rudolph2.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 447</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 414</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8 4 10 2 148 69 129 250 226 165 11 9 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125 115 249 195 194 164 183 177 172</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\runicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 454</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 508</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117 121 170 174 190 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 127 71 67 138 129 79 73 144 148 69 74 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\stbroadcast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 455</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 423</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119 170 174 190 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 71 67 138 129 79 73 144 148 69 74 117 121 127 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\stunicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 456</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 330</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121 170 174 190 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 127 71 67 138 129 79 73 144 148 69 74 117 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\timesynch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 457</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 333</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195 194 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 164 190 166 170 174 187 233 183 177 172 34 148 69 129 74 117 121 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\trickle.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 458</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 449</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 125 170 174 190 166 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 181 185 176 175 71 67 138 129 79 73 144 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\unicast.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 459</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 354</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 148 69 129 250 226 165 11 10 9 8 4 178 230 227 0 260 245 213 246 253 74 117 121 170 174 190 166 181 185 176 175 127 71 67 138 79 73 144 94 81 82 15 140 27 83 89 91 105 93 98 84 131 103 107 109 123 52 20 187 233 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rimeaddr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 460</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 352</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rime\rimestats.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 392</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 336</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\netstack.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 462</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 300</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\packetbuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 463</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 344</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\packetqueue.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 464</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 335</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\psock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 465</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 349</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\queuebuf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 466</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 351</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\rawpacket-udp.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 467</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 350</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\resolv.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 468</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 306</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\slipdev.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 469</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 342</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\tcpdump.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 470</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 273</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\tcpip.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 471</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 303</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\uip-debug.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 472</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 517</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\uip-split.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 473</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 325</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\uip-udp-packet.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 474</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 304</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\net\uiplib.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 475</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 302</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\arg.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 476</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 337</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\autostart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 477</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 339</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\compower.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 478</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 327</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\ctimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 479</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 305</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\energest.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 480</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 332</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\etimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 369</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\mt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 483</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 326</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\process.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 482</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 424</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\procinit.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 484</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 334</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\profile.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 485</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 281</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\rtimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 486</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 282</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\stimer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 487</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 312</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\core\sys\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 488</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 331</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\common\hal_int.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 316</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 280</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\targets\common\hal_uart_usb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 439</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 426</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_cdc_descriptor.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 289</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_cdc_hooks.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 266</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 318</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_firmware_library_config.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 431</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 425</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\class_cdc\usb_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 317</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 301</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\hal_enter_pm.s51</name>
+      <outputs>
+        <tool>
+          <name>A8051</name>
+          <file> 265</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\usb_interrupt.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 287</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 328</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\cc2531\usb_suspend.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 307</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 315</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_descriptor_parser.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 422</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 519</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_framework.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 348</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\usb\library\usb_standard_requests.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 364</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 381</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 320</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 309</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 286</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\ti\components\utils\util_uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 434</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 428</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 489</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\aes.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 279</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 324</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\bus.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 490</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 308</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\cc2530_rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 491</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 329</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\cc2530_rf_intr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 492</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 427</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\clock.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 493</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 451</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\dma.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 494</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 515</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\pwm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 495</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 512</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 496</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 421</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 314</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 445</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart_init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 374</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 322</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\uart_intr.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 311</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 410</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\watchdog-cc253x.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 420</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\dev\xmem.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 435</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 396</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\hal_mcu.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 268</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 345</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\io.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 284</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 313</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\mtarch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 278</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 521</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\cpu\cc2530\rtimer-arch.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 481</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugsComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 285</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 310</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugsPkts.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 432</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 288</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\app\ldrComm.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 429</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 323</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\bcd\bcd.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 409</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 502</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\flash\flash_at45DBxxxx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 395</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 501</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\gps\gps_nmeaLib.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 252</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 263</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\rtc\rtc_ds1390.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 384</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 290</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\spi\spi_cc253x_master.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 497</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 412</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\buzzer.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 283</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 413</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\battery-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 385</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 506</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\temperature\temperature_tc72.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 254</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 261</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\uart\uart_max3100.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 259</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\contiki-dugs-main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 258</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 498</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\serialProcess.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 444</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 441</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\dev\vpi\radiation-sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 378</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 388</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\contiki-2.x\platform\dugs\app\dugs_app.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 408</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 319</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

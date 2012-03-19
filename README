@@ -1,0 +1,48 @@
+README for ContikiCC2530Port
+
+For a description of what Contiki is, please see the README file under
+contiki-2.5/README under this project or go to
+http://contiki-os.blogspot.com
+
+Contiki is licensed under a BSD-style license.
+
+This port contains a port of Contiki (version 2.5) for the CC2530/CC2531 radios.
+Specifically, this port was made to run on the Texas Instruments CC2530
+Evaluation Module and the CC2530 SmartRF05 Evaluation Board.
+
+This code was originally built using the SDCC compiler, but was later built 
+using the IAR 8051 Workbench. The IAR
+build has been used and tested with a RIME configuration. I have not tested the
+current UIP configuration, but hopefully it works with little modification as
+well.
+
+To Build Contiki for the CC2530 EM using the IAR 8051 Workbench for Windows
+
+1) Download and install the IAR 8051 Workbench. If you are evaluating, the
+   limited time trial version can be downloaded for free at www.iar.com.
+2) Create two environment variables under Windows:
+   PROJ_DIR=<folder of this contiki project>
+     (e.g. C:\ContikiCC2530Port\contiki-2.5)
+   TOOLKIT_DIR=<IAR Workbench folder>
+     (e.g. C:\Program Files\IAR Systems\Embedded Workbench 5.4 Evaluation\8051)
+
+   In Windows XP, these environment variables can be set by right clicking
+   "My Computer", clicking "Properties", clicking the "Advanced" tab, clicking
+   "Environment Variables", clicking "New" under "System variables" and creating
+   the two above mentioned variables.
+3) Using IAR, open the ContikiCC253xProj.eww file.
+4) Plug in the CC2530 EM board via USB to the PC.
+5) Power on the CC2530 EM board.
+6) Click the green arrow button in the IAR toolbar to build and download to the
+   board.
+7) Press F5 to run the application on the board.
+
+It is likely that you will want to perform steps 4-7 on another board. Just be
+sure to change the board's address and the send address in the code.
+
+Many thanks to the Contiki group and to George Oikonomou for his efforts
+on Contiki and this CC253x port.
+
+For questions, please use or search the Contiki mailing list found at
+http://sourceforge.net/projects/contiki.
+

@@ -1,0 +1,28 @@
+CONTIKI_CPU_DIRS = .
+
+CONTIKI_SOURCEFILES += mtarch.c elfloader-x86.c
+
+### Compiler definitions
+CC       = gcc
+LD       = gcc
+AS       = as
+OBJCOPY  = objcopy
+STRIP    = strip
+CFLAGSNO = -Wall -g -I/usr/local/include
+CFLAGS  += $(CFLAGSNO)
+LDFLAGS  = -Wl,-Map=contiki-$(TARGET).map,-export-dynamic
+
+### Compilation rules
+
+%.so: $(OBJECTDIR)/%.o
+	$(LD) -shared -o $@ $^
+
+# .PHONY: symbols.c symbols.h
+ifdef CORE
+symbols.c symbols.h:
+	$(NM) $(CORE) | awk -f $(CONTIKI)/tools/mknmlist > symbols.c
+else
+symbols.c symbols.h:
+	cp ${CONTIKI}/tools/empty-symbols.c symbols.c
+	cp ${CONTIKI}/tools/empty-symbols.h symbols.h
+endif

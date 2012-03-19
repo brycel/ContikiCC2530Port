@@ -1,0 +1,128 @@
+###############################################################################
+#                                                                             #
+#     IAR Assembler V7.60.1.40026/W32 for 8051 21/Nov/2011  11:33:19          #
+#     Copyright (C) 2010 IAR Systems AB.                                      #
+#                                                                             #
+#           Target option =  plain                                            #
+#           Source file   =  C:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\contiki-2.x\cpu\cc2530\dev\mcu_sleep.s51#
+#           List file     =  C:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\ContikiBankedDebug\List\mcu_sleep.lst#
+#           Object file   =  C:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\ContikiBankedDebug\Obj\mcu_sleep.r51#
+#           Command line  =  C:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\contiki-2.x\cpu\cc2530\dev\mcu_sleep.s51 #
+#                            -v0 -D__CORE__=1 -D__CODE_MODEL__=2              #
+#                            -D__DATA_MODEL__=2 -D__CALLING_CONVENTION__=4    #
+#                            -D__NUMBER_OF_DPTRS__=2 -D__INC_DPSEL_SELECT__   #
+#                            -D__DPTR_SEPARATE__                              #
+#                            -OC:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\ContikiBankedDebug\Obj\ #
+#                            -s+ -M<> -r                                      #
+#                            -LC:\Documents and Settings\brycel\Desktop\DUGS\Contiki\Contiki\ContikiBankedDebug\List\ #
+#                            -t8                                              #
+#                            -IC:\Program Files\IAR Systems\Embedded Workbench 5.4\8051\INC\ #
+#                            -w+                                              #
+#                                                                             #
+###############################################################################
+
+      1    000000          ;;**************************************************
+                           ****************************
+      2    000000          ;; Filename:    hal_enter_pm.s51
+      3    000000          ;;
+      4    000000          ;; Description: Contains functions for entering the
+                            power mode selected by
+      5    000000          ;;              SLEEPCMD.MODE bits (CC253x).
+      6    000000          ;;              Due to hardware requirements, this
+                            function is implemented in
+      7    000000          ;;              assembler to ensure correct
+                            instruction alignment.
+      8    000000          ;;
+      9    000000          ;;              The "PCON = 0x01" instruction that
+                            enters the power mode will
+     10    000000          ;;              halt CPU execution. The following
+                            instruction will not be
+     11    000000          ;;              executed until the CPU has been
+                            woken up with an interrupt.
+     12    000000          ;;
+     13    000000          ;;              For CC253x, it is required to have
+                            the instruction AFTER the
+     14    000000          ;;              "PCON = 0x01" instruction to NOT be
+                            on a 4-byte boundary. Since
+     15    000000          ;;              the "PCON = 0x01" instruction is a 3
+                            byte instruction, the
+     16    000000          ;;              requirement is fulfilled. See the
+                            CC253x User's Guide for more
+     17    000000          ;;              details.
+     18    000000          ;;
+     19    000000          ;;              For the IAR A8051 assembler, the
+                            alignment is done with the
+     20    000000          ;;              "(n)" parameter when specifying
+                            segment placement, which will
+     21    000000          ;;              align it to 2^n byte boundary.
+     22    000000          ;;**************************************************
+                           ****************************
+     23    000000          #include    <ioCC2530.h>
+     24    000000          
+     25    000000          
+     26    000000          
+     27    000000                      ; Enter power mode
+     28    000000                      PUBLIC halEnterPowerMode
+     29    000000                      FUNCTION halEnterPowerMode, 0201H
+     30    000000          
+     31    000000                      RSEG NEAR_CODE:CODE:NOROOT(2)   ; align
+                            on 2^2 = 4 byte boundary
+     32    000000          
+     33    000000          halEnterPowerMode:                          ; void
+                            halEnterPowerMode(void) {
+     34    000000 758701               MOV PCON, #0x01                 ;   PCON
+                                                  = 0x01;    // halts
+                                                  CPU
+     35    000003 00                   NOP                             ;  
+                                                                        NOP();
+     36    000004 22                   RET                             ;
+                                                                        }
+     37    000005          
+     38    000005          
+     39    000005          
+     40    000005          
+     41    000005                      ; Variant that can be used on CC253x, if
+                            it is desired not to
+     42    000005                      ; immediately execute the ISR for the
+                            interrupt that woke up
+     43    000005                      ; the system.
+     44    000005                      ; See the CC253x User's Guide for more
+                            details.
+     45    000000                      PUBLIC halEnterPowerModeDisableInterrupt
+ sOnWakeup
+     46    000005                      FUNCTION halEnterPowerModeDisableInterru
+                           ptsOnWakeup, 0201H
+     47    000005          
+     48    000000                      RSEG NEAR_CODE:CODE:NOROOT(2)   ; align
+                            on 2^2 = 4 byte boundary
+     49    000000          
+     50    000000          halEnterPowerModeDisableInterruptsOnWakeup: ; void
+                            halEnterPowerModeDisableInterruptsOnWakeup(void)
+                            {
+     51    000000 758701               MOV PCON, #0x01                 ;   PCON
+                                                  = 0x01;    // halts
+                                                  CPU
+     52    000003 C2AF                 CLR EA                          ;   EA =
+                                                                        0;     
+                                                                           //
+                                                                        execute
+                                                                       d before
+                                                                        pending
+                                                                        ISR
+     53    000005 22                   RET                             ;
+                                                                        }
+     54    000006          
+     55    000006          ;---------------------------------------------------
+                           ---------------------------
+     56    000006                      END                             ;
+                            EOF
+##############################
+#          CRC:FCF9          #
+#        Errors:   0         #
+#        Warnings: 0         #
+#         Bytes: 11          #
+##############################
+
+
+
+
