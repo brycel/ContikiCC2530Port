@@ -91,11 +91,14 @@ PROCESS_THREAD(example_mesh_process, ev, data)
 
   while(1) {
     rimeaddr_t addr;
+    static struct etimer et;
 
     /* Wait for button click before sending the first message. */
-    PROCESS_WAIT_EVENT_UNTIL(ev == sensors_event && data == &button_sensor);
+//    PROCESS_WAIT_EVENT_UNTIL(ev == sensors_event && data == &button_sensor);
 
-    printf("Button clicked\n");
+//    printf("Button clicked\n");
+    etimer_set(&et, CLOCK_SECOND * 5);
+    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
 
     /* Send a message to node number 1. */
     

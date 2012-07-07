@@ -27,6 +27,8 @@ typedef unsigned short clock_time_t;
 #define ENERGEST_CONF_ON      0
 #endif
 
+#define AUTOSTART_ENABLE 1
+
 /* Verbose Startup? Turning this off saves plenty of bytes of CODE in HOME */
 #define STARTUP_CONF_VERBOSE  0
 

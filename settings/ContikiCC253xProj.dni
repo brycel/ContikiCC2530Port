@@ -28,20 +28,20 @@ TriggerName=main
 LimitSize=0
 ByteLimit=50
 [DebugChecksum]
-Checksum=844290848
+Checksum=-2048302124
 [InstructionProfiling]
 Enabled=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [Log file]
 LoggingEnabled=_ 1
 LogFile=_ "$PROJ_DIR$\LogFile1.log"
 Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Count=0
 [ChipconEmu]
-Stop timers on halt=1
+Stop timers on halt=0
 Leave target running=1
 [Aliases]
 Count=0

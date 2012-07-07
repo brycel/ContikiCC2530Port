@@ -84,7 +84,7 @@ set_rime_addr(void)
 {
   uint8_t *addr_long = NULL;
   uint16_t addr_short = 0;
-  char i;
+  int8_t i;
 
 #ifdef SDCC
   __xdata unsigned char * macp = &X_IEEE_ADDR;

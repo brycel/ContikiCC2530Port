@@ -33,10 +33,14 @@
  * This file contains ISRs: Keep it in the HOME bank.
  */
 #include "dev/port.h"
-#include "dev/button-sensor.h"
+#include "button-sensor.h"
 /*---------------------------------------------------------------------------*/
 #if BUTTON_SENSOR_ON
+#ifdef SDCC
 static __data struct timer debouncetimer;
+#else
+static struct timer debouncetimer;
+#endif
 /*---------------------------------------------------------------------------*/
 static
 int value(int type)
@@ -80,8 +84,13 @@ int configure(int type, int value)
   return 0;
 }
 /*---------------------------------------------------------------------------*/
+#ifdef SDCC
 void
 port_0_isr(void) __interrupt(P0INT_VECTOR)
+#else
+#pragma vector=P0INT_VECTOR
+__near_func __interrupt void port_0_isr(void)
+#endif
 {
   EA = 0;
   ENERGEST_ON(ENERGEST_TYPE_IRQ);
